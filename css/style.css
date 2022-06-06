@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7accff;
+    border: 3px solid gold;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 85px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 0 23px;
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #4bace9;
+    font-style: bold;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 58px;
+}
+
+.search input {
+    width: 590px;
+    border-radius: 12px;
+    height: 30px;
+    padding: 0 12px;
+    border: solid black;
+}
+
+.search button {
+    /* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); */
+    font-family: 'Ubuntu', sans-serif;
+    overflow: visible;
+}
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+h2{
+      display: flex;
+      justify-content: center;
+      background-color: gold;
+}
+h2:hover{
+    font: bold;
+    color: blanchedalmond;
+}
+.cart{
+    max-width: 90vw;
+    margin: auto;
+    display: flex;
+    gap: 4rem;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.cart-item{
+         width: 10vw;
+         
+         justify-content: center;
+         flex-direction: column;
+         margin: 0 15px;
+         padding: 0 15px;
+         
+         
+     
+}
+.my-1{
+    margin: 0px 40px;
+}
+.lines{
+
+    margin: 0 30px;
+}
+
+footer {
+    height: 12vh;
+    background-color: #7accff;
+    color: white;
+}
